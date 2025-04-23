@@ -1,0 +1,135 @@
+import { Earthquake } from "../actions"
+
+// Sample earthquake data from Turkey to use as a fallback when the real data can't be fetched
+export const fallbackEarthquakeData: Earthquake[] = [
+  {
+    id: "2023.05.01_12:34:56_40.7848_28.2417",
+    date: "2023.05.01",
+    time: "12:34:56",
+    latitude: 40.7848,
+    longitude: 28.2417,
+    depth: 5.0,
+    magnitudeMD: null,
+    magnitudeML: 3.0,
+    magnitudeMw: null,
+    location: "SILIVRI ACIKLARI-ISTANBUL (MARMARA DENIZI)",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_13:45:22_40.8417_28.3630",
+    date: "2023.05.01",
+    time: "13:45:22",
+    latitude: 40.8417,
+    longitude: 28.3630,
+    depth: 22.4,
+    magnitudeMD: null,
+    magnitudeML: 3.2,
+    magnitudeMw: null,
+    location: "MARMARA DENIZI",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_14:18:39_40.8440_28.4035",
+    date: "2023.05.01",
+    time: "14:18:39",
+    latitude: 40.8440,
+    longitude: 28.4035,
+    depth: 21.2,
+    magnitudeMD: null,
+    magnitudeML: 3.1,
+    magnitudeMw: null,
+    location: "MARMARA DENIZI",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_15:22:45_37.1160_27.8327",
+    date: "2023.05.01",
+    time: "15:22:45",
+    latitude: 37.1160,
+    longitude: 27.8327,
+    depth: 5.0,
+    magnitudeMD: null,
+    magnitudeML: 2.6,
+    magnitudeMw: null,
+    location: "PINARARASI-MILAS (MUGLA)",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_16:32:08_40.8463_28.3663",
+    date: "2023.05.01",
+    time: "16:32:08",
+    latitude: 40.8463,
+    longitude: 28.3663,
+    depth: 21.8,
+    magnitudeMD: null,
+    magnitudeML: 2.2,
+    magnitudeMw: null,
+    location: "MARMARA DENIZI",
+    solutionQuality: "REVIZE01"
+  },
+  {
+    id: "2023.05.01_17:04:49_38.2605_38.6285",
+    date: "2023.05.01",
+    time: "17:04:49",
+    latitude: 38.2605,
+    longitude: 38.6285,
+    depth: 6.5,
+    magnitudeMD: null,
+    magnitudeML: 1.9,
+    magnitudeMw: null,
+    location: "PELITLI-(MALATYA)",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_18:16:14_37.0268_28.2040",
+    date: "2023.05.01",
+    time: "18:16:14",
+    latitude: 37.0268,
+    longitude: 28.2040,
+    depth: 8.3,
+    magnitudeMD: null,
+    magnitudeML: 2.5,
+    magnitudeMw: null,
+    location: "GOKOVA KORFEZI (EGE DENIZI)",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_19:29:58_38.1358_42.9265",
+    date: "2023.05.01",
+    time: "19:29:58",
+    latitude: 38.1358,
+    longitude: 42.9265,
+    depth: 5.0,
+    magnitudeMD: null,
+    magnitudeML: 2.8,
+    magnitudeMw: null,
+    location: "ALTINDERE-BAHCESARAY (VAN)",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_20:45:39_40.8265_28.4422",
+    date: "2023.05.01",
+    time: "20:45:39",
+    latitude: 40.8265,
+    longitude: 28.4422,
+    depth: 20.4,
+    magnitudeMD: null,
+    magnitudeML: 2.8,
+    magnitudeMw: null,
+    location: "MARMARA DENIZI",
+    solutionQuality: "İlksel"
+  },
+  {
+    id: "2023.05.01_21:11:55_39.0210_27.1337",
+    date: "2023.05.01",
+    time: "21:11:55",
+    latitude: 39.0210,
+    longitude: 27.1337,
+    depth: 7.2,
+    magnitudeMD: null,
+    magnitudeML: 2.1,
+    magnitudeMw: null,
+    location: "KARAYAKUP-BERGAMA (IZMIR)",
+    solutionQuality: "İlksel"
+  }
+] 
